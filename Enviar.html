@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Deixe sua resenha</title>
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+   <!--Jquery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!--CSS e JS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/main.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand texto-carrosel cor-especial" href="index.html">Resenha de Livros</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end"  id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-item nav-link active" href="quemsomos.html">Quem somos<span class="sr-only"></span></a></li>
+            <li><a class="nav-item nav-link" href="resenhas.html">Resenhas</a></li>
+            <li><a class="nav-item nav-link" href="Enviar.html">Envie sua Resenha</a></li>
+          </ul>
+          <span class="navbar-text">
+          </span>
+        </div>
+      </div>
+  </header>
+  <main>
+    <section class="container fluid  pt-5">
+        <div class="row justify-content-center">
+        <h1 class="text-center texto-carrosel cor-especial-autores pt-4 pb-4"> Envie sua Resenha </h1>
+        </div>
+    </section>
+    <div class="formulario">
+
+        <form id="form" class="form">
+            <div class="form-control ">
+                <label for="username">Nome Completo </label>
+                <input type="text" id="username" placeholder="Digite seu nome">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small> Mensagem de erro</small>
+            </div>
+            <div class="form-control ">
+                <label for="email">Email </label>
+                <input type="text" id="email" placeholder="nome@exemplo.com">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small> Mensagem de erro</small>
+            </div>
+
+            <select class="form-control" id="genero">
+                <option>Romance</option>
+                <option>Ficção</option>
+                <option>Conto</option>
+                <option>Drama</option>
+                <option>Outro</option>
+            </select>
+            
+            <div class="form-control">
+              <label for="texto" class="pb-2 pt-3">Texto</label>
+              <textarea class="form-control" id="texto" rows="25"></textarea>
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+              <small> Mensagem de erro</small>
+            </div>
+        
+            <button type="submit"> Enviar</button>
+
+        </form>
+
+    </div>
+    <script src="https://kit.fontawesome.com/a87b2cca03.js" crossorigin="anonymous"></script>
+
+
+
+  </main>
+  <footer class="bg-secondary p-3  rodape">
+    <p class="text-light text "><a class = "text-light" href="gisele97@rede.ulbra.br">Gisele97@rede.ulbra.br</a></p>
+  </footer>
+  
+  <!--JS validacao formulário-->
+  <script src="assets/validacao.js"></script>
+
+
+</body>
+</html>

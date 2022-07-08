@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Deixe sua resenha</title>
+
+
+
+ <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+   <!--Jquery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!--CSS e JS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand texto-carrosel cor-especial" href="#">Resenha de Livros</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end"  id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-item nav-link active" href="quemsomos.html">Quem somos</a></li>
+            <li><a class="nav-item nav-link" href="#">Resenhas</a></li>
+            <li><a class="nav-item nav-link" href="Enviar.html">Envie sua Resenha</a></li>
+          </ul>
+          <span class="navbar-text">
+          </span>
+        </div>
+      </div>
+  </header>
+  <main>
+    <section class="carrosel"> 
+    <div id="carouselExampleCaptions" class="carousel slide" data-interval="3000" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/fotolivro.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="texto-carrosel display-4">Compartilhe sua expêriencia de leitura conosco</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/fotolivro1.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="texto-carrosel display-4">Compare sua impressão de um livro lendo a resenha de outra pessoa</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/fotolivro2.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="texto-carrosel"></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/fotolivro3.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="texto-carrosel"></h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </nav>
+    </section>
+    <section>
+    <h1 class="text-center texto-carrosel cor-especial pt-5">Aqui no Resenhas você pode divulgar sua opinião de cada livro</h1>
+    <p class="text-center text-secondary pb-5"> Dos misterios da alquímia, do entendimento da alma do mundo com PAULO COELHO até  discussões psicoterapeutas sobre a influência de Schopenhauer em processos de terapia como bem abordado por  IRVIN D. YALOM em a Cura de Schopenhauer. Em RESENHAS você encontrará e poderá compartilhar todos os livros que imaginar.</p>
+    </section>
+
+    <section class="container fluid bg-light">
+      <div class="row justify-content-center">
+
+        <h1 class="text-center texto-carrosel cor-especial-autores pt-4">Sugestão de autores para leitura</h1>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img class="card-posicao-imagem" src="assets/img/paulocoelho.jpg" alt="Foto de Paulo Coelho, homem.">
+          <div class="card-body">
+            <h5 class="card-title">Paulo Coelho</h5>
+            <p class="card-text">Gênero literário: Drama, romance.</p>
+            <a href="https://paulocoelhoblog.com/" class="btn botao-cor-especial">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" >
+          <img class="card-posicao-imagem" src="assets/img/irvinyalom.webp" alt="Foto de Irvin Yalom, homem.">
+          <div class="card-body">
+            <h5 class="card-title">Irvin D. Yalom</h5>
+            <p class="card-text">Gênero literário: romance, ficção, literatura, filosofia e psicanálise. </p>
+            <a href="https://www.yalom.com/" class="btn botao-cor-especial">Saiba mais</a>
+          </div>
+        </article>
+        
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img class="card-posicao-imagem" src="assets/img/claricelispector.png" alt="foto de Clarice Lispector, mulher">
+          <div class="card-body">
+            <h5 class="card-title">Clarice Lispector</h5>
+            <p class="card-text">Gênero literário:	Romance conto. </p>
+            <a href="https://site.claricelispector.ims.com.br/" class="btn botao-cor-especial">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" >
+          <img class="card-posicao-imagem" src="assets/img/gabriel_g_marquez.jpg" alt="Foto de Gabriel García Márquez, homem.">
+          <div class="card-body">
+            <h5 class="card-title">Gabriel García Márquez</h5>
+            <p class="card-text">Gênero literário:ficção. </p>
+            <a href="https://fundaciongabo.org/es/recursos/publicaciones/fundacao-de-gabo" class="btn botao-cor-especial">Saiba mais</a>
+          </div>
+        </article>
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" >
+          <img class="card-posicao-imagem" src="assets/img/JorgeAmado.jpg" alt="Foto de Jorge Amado, homem.">
+          <div class="card-body">
+            <h5 class="card-title">Jorge Amado</h5>
+            <p class="card-text">Gênero literário: regionalista, realista.</p>
+            <a href="http://www.jorgeamado.com.br/" class="btn botao-cor-especial">Saiba mais</a>
+          </article>      
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" >
+          <img class="card-posicao-imagem" src="assets/img/lygiafagundestelles.webp" alt="Ilha dos Lobos">
+          <div class="card-body">
+              <h5 class="card-title">Lygia Fagundes Teles</h5>
+              <p class="card-text">Gênero literário: Conto, Romance.</p>
+              <a href="https://www.academia.org.br/academicos/lygia-fagundes-telles/biografia" class="btn botao-cor-especial">Saiba mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+ <footer class="bg-secondary p-3 ">
+    <p class="text-light text "><a class = "text-light" href="gisele97@rede.ulbra.br">Gisele97@rede.ulbra.br</a></p>
+  </footer>
+
+  <script src=""></script>
+
+</body>
+</html>
