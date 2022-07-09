@@ -113,3 +113,22 @@
     color: #e74c3c;
     
 }
+.rodapedois{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgba(211, 211, 211, 0.993);
+   
+  }
+  #fotogisele{
+    width: 50%;
+
+  }
